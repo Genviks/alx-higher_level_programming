@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     from sys import argv
-    from calculator_1 import add, sub, mul,div
+    from calculator_1 import add, sub, mul, div
     argc = len(argv)
-    if argc = != 4:
+    if argc != 4:
         print('usage: {} <a> <operator> <b>'.format(argv[0]))
         exit(1)
     ops = {
